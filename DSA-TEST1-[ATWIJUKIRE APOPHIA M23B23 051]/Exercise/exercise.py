@@ -4,8 +4,6 @@ import math
 # Allowing the user input their own degree value
 degrees = float(input('Enter value in degrees: '))
 
-
-# math.radians is used to change everything to radians
 answer = math.radians(degrees)
 # printing out the results of the degrees input
 print(answer)
@@ -20,7 +18,7 @@ numbers = [] # Creating an empty list in order to append height and length
 height = float(input("Please input the height of the parallelogram: "))
 length = float(input("please input the length of the base: "))
 
-# adding the userinput to the list using append
+
 numbers.append(height)
 numbers.append(length)
 
@@ -37,10 +35,10 @@ print(f"The smallest multiple of {number} values", smallest_multiple)
 
 """NUMBER FOUR"""
 
-import numpy as np
+import numpy as np # importing the numpy
 
-array = np.array([1+1j, 1+0j, 4.5, 3, 2, 2j])
-num = 3.1
+array = np.array([1+1j, 1+0j, 4.5, 3, 2, 2j]) # initialising Complex array
+number = 3.1
 
 print("Original array:")
 print(array)
@@ -49,7 +47,7 @@ print(np.iscomplex(array))
 print("Checking for real number:")
 print(np.isreal(array))
 print("Checking for scalar type:")
-print(np.isscalar(num))
+print(np.isscalar(number))
 
 """NUMBER FIVE"""
 # Initialising the array
